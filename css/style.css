@@ -642,7 +642,7 @@ nav .inner ul li a:hover {
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
+    height:200px;
 	text-align: center;
 	font-size: 10px;
 	background-color: rgba(0,69,91,0.2);
@@ -683,6 +683,7 @@ text-align: center;
 footer {
 	clear: both;
 	width: 100%;
+
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -707,17 +708,7 @@ footer {
 }
 
 
-.toggle_btn {
-	display: block;
-	position: fixed;
-	top: 5px;
-	left:347px;
-	width: 30px;
-	height: 30px;
-	transition: all .5s;
-	cursor: pointer;
-	z-index: 3;
-  }
+
 
 
 
@@ -950,7 +941,7 @@ footer ul.f_list li li a::before {
 address {
 	font-size: 24px;
 	font-style: normal;
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	letter-spacing: 1px;
 	text-align: center;
@@ -1854,7 +1845,7 @@ footer {
 	color: #FFF;
 	clear: both;
 	position: relative;
-	top:6023px;
+	top:5980px;
 	width: 100%;
 	display: block;
 	background-image: url(../img/bg_02.png);
@@ -1865,5 +1856,38 @@ address {
 }
 
 }
+@media screen and (min-width:350px) and ( max-width:400px){
+
+.pickup ul li {
+	width: 100%;
+
+	margin-right:50px;
+	margin-left:25px;
+}
+
+.toggle_btn {
+	display: block;
+	position: fixed;
+	top: 5px;
+	left:340px;
+	width: 30px;
+	height: 30px;
+	transition: all .5s;
+	cursor: pointer;
+	z-index: 3;
+  }
+  footer {
+	background-color: #007095;
+	color: #FFF;
+	clear: both;
+	position: relative;
+	top:6000px;
+	width: 100%;
+	display: block;
+	background-image: url(../img/bg_02.png);
+}
 
 
+
+
+}
