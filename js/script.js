@@ -111,6 +111,5 @@ $(function(){
      
 });
 
-$(window).fadeThis();
 
 
