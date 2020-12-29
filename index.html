@@ -1,3 +1,4 @@
+ 
 <!doctype html>
 <html lang="ja">
 <head>
@@ -49,11 +50,28 @@ $(function(){
   <div class="header-title"><h1>山形の魅力紹介サイト</h1></div>
 
 
-<ul class="header-menu">
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-</ul>
+  <div id="navArea">
 
+    <nav>
+      <div class="inner">
+        <ul>
+          <li><a href="#about-yamagata">山形県について</a></li>
+          <li><a href="#famous-city">山形の代表的な市町村</a></li>
+          <li><a href="#travel-spot">観光スポット</a></li>
+          <li><a href="#food-choice">山形グルメ</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="toggle_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div id="mask"></div>
+  
+  </div>
 
 </header>
 
@@ -70,21 +88,21 @@ $(function(){
         <div class="top_catch">山形県<br>
 <span>魅力的な山形県を紹介</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/yamagata-prefecture-map.jpg" data-small="img/slide/img_01_sp.jpg"/>
+            <img class="sp-image" src="./img/yamagata-prefecture-map.jpg" data-small="img/yamagata-prefecture-map.jpg"/>
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
         <div class="top_catch">芋煮<br>
 <span>山形の郷土料理の芋煮</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/imoni.jpg" data-small="img/slide/img_02_sp.jpg"/>
+            <img class="sp-image" src="./img/imoni.jpg" data-small="./img/imoni.jpg"/>
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
         <div class="top_catch">玉こん<br>
 <span>山形名物玉こん</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/tamakonn.jpg" data-small="img/slide/img_03_sp.jpg"/>
+            <img class="sp-image" src="./img/tamakonn.jpg" data-small="./img/tamakonn.jpg"/>
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
@@ -92,21 +110,21 @@ $(function(){
         <div class="top_catch">さくらんぼ<br>
 <span>山形県果樹栽培面積の約 30％をさくらんぼが占めている。</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/cherry.jpg" data-small="img/slide/img_04_sp.jpg"/>
+            <img class="sp-image" src="./img/cherry.jpg" data-small="./img/cherry.jpg"/>
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
         <div class="top_catch">銀山温泉<br>
 <span>映画で有名になった温泉</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/ginzan.jpg" data-small="img/slide/img_05_sp.jpg"/>
+            <img class="sp-image" src="./img/ginzan.jpg" data-small="./img/ginzan.jpg"/>
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
         <div class="top_catch">米沢城<br>
 <span>米沢城</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/IMG_1491 2.jpeg" data-small="img/slide/img_06_sp.jpg"/>
+            <img class="sp-image" src="./img/IMG_1491 2.jpeg" data-small="./img/IMG_1491 2.jpeg">
         </div><!-- /sp-slide -->
 
         <div class="sp-slide">
@@ -114,23 +132,23 @@ $(function(){
         <div class="top_catch">日本海<br>
 <span>日本海の潮風</span></div>
 <div class="slide_btn"><a href="#">詳しくはコチラ</a></div>
-            <img class="sp-image" src="./img/nihonnkai.jpg" data-small="img/slide/img_07_sp.jpg"/>
+            <img class="sp-image" src="./img/nihonnkai.jpg" data-small="img/nihonnkai.jpg"/>
         </div><!-- /sp-slide -->
 
 </div><!-- /sp-slides -->
 
 
 </div><!-- /slider-pro -->
-
+<div id="about-yamagata">
 <div class="content">
 
-  <div class="cont_wrap effect d_04">
+  <div class="cont_wrap effect d_04" >
   <h2>山形県について<br>
 
   <ul class="ul_about">
   <div class="about-yamagata">山形県は、東北地方の日本海側に位置する県。山形新幹線で東京から約3時間の距離にあり、一般には、全国生産量の7割を占める「さくらんぼ」と鮮やかな四季で知られています。<br><br>
     県内を村山地方、最上地方、置賜地方、庄内地方の４つにわけている。また、山形県は日本で唯一県内にある全ての市町村に温泉がある県として、知られ、銀山温泉、湯野浜温泉、蔵王温泉などが有名。<br><br>
-    また、さくらんぼやラフランスだけでなく、芋煮や玉こん、ご当地ラーメンといったグルメも魅力的な県である。    </div>
+    また、さくらんぼやラフランスだけでなく、芋煮や玉こん、ご当地ラーメンといったグルメも魅力的な県である。</div>
 
 
   <li><img src="./img/yamagata-overall.map.jpg" alt="山形県"  ></li>
@@ -139,14 +157,13 @@ $(function(){
   </div><!--/cont_wrap-->
 
 </div><!--/content-->
+</div>
 
-
-<div class="pickup">
-    <div class="pickup-sightseeing">
+<div class="pickup" id="famous-city">
+    <div class="pickup-sightseeing" >
       <h2>山形の代表的な市町村</h2></div>
-      <div class="pickup">
-  <ul>
 
+  <ul>
     <li class="effect"><a href="https://www.city.yamagata-yamagata.lg.jp/" target=”_blank” ><img src="./img/syonaiのコピー.jpg" alt="ここを入力してください" ><span class="pu_icon cl_02"></span>
   <div class="pu_title">山形市</div>
   <p>山形県の県庁所在地。県内最大の人口を誇るとともに蔵王温泉という県外も多くの人が訪れる温泉がある。</p></a></li>
@@ -180,10 +197,8 @@ $(function(){
   </ul>
   <div class="pickup-comment">
     ※写真をクリックすると各市町村のホームページへつながります。
-  </div><!-- /pickup -->
-  
-</div>
-<div class="pickup-sightseeing-spot">
+</div> 
+<div class="pickup-sightseeing-spot" id="travel-spot">
     <div class="pickup-sightseeing-spot-header"><h2>おすすめ観光スポット</h2></div>
     <div class="pickup-spot">
 
@@ -221,7 +236,7 @@ $(function(){
     </ul>
     </div>
 </div>
-<div class="pickup-food">
+<div class="pickup-food" id= "food-choice">
     <div class="pickup-sightseeing-spot-header"><h2>山形グルメ</h2></div>
     <div class="pickup-food-content">
 
@@ -303,3 +318,4 @@ $( document ).ready(function( $ ) {
 </script>
 </body>
 </html>
+
