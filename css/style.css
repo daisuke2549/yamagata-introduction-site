@@ -503,6 +503,7 @@ nav .inner ul li a:hover {
 	margin-top: 30px;
 	font-size:28px;
 	text-align: left;
+	margin-left:20px;
 }
 
 
@@ -1848,6 +1849,20 @@ address {
 	font-size: 16px;
 }
 
+.toggle_btn{
+	display: block;
+	position: fixed;
+	top: 5px;
+	left:380px;
+	width: 30px;
+	height: 30px;
+	transition: all .5s;
+	cursor: pointer;
+	z-index: 3;
+}
+
+
+
 }
 @media screen and (min-width:350px) and ( max-width:400px){
 
@@ -1879,7 +1894,12 @@ address {
 	display: block;
 	background-image: url(../img/bg_02.png);
 }
-
+.about-yamagata{
+	font-size: 16px;
+	width:360px;
+	text-align:left;
+	margin-left:0px;
+}
 
 
 
